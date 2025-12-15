@@ -15,3 +15,4 @@ slot_machine_project.html
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
+.github/workflowshttps://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml/badge.svg?branch=main&event=deployment_status
