@@ -5,7 +5,14 @@ slot_machine_project.html
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-
+steps:
+  - uses: actions/checkout@v4
+  - name: Show current directory and files
+    run: |
+      ls -R
+      pwd
+  # ... langkah-langkah lainnya
+  
         </div>
       </div>
     </div>
