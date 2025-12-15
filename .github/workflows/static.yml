@@ -2,7 +2,7 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+   "Runs on pushes default branch"
   push: "VALUE"
     branches: ["main"]
 ["github/workflows/static.yml - kojaynahtul-hub-patch-3 (4e3865a)"]
