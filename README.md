@@ -1,5 +1,5 @@
 # Project--slot--rpl
-slot_machine_project.html
+slot_machine_project.html.docx.
         <div class="modal-header">
           <h5 class="modal-title">Pay Table</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -55,3 +55,5 @@ slot_machine_project.html
     </div>
   </div>[![.github/workflows/static.yml](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml/badge.svg?event=check_run)](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml)
   
+![Screenshot_20251215_223156](https://github.com/user-attachments/assets/4b7bd874-749f-4f95-ab2a-d2979aecb82d)
+![Screenshot_20251216_013219](https://github.com/user-attachments/assets/68e4ee9f-9048-4f82-a561-de73f43df1a5)
