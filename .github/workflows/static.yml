@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+ko# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -24,7 +24,7 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy: run 
-    environment: 4471d5c
+    environment: 
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: github.io/
