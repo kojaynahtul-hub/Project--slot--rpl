@@ -1,33 +1,32 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Alur kerja sederhana untuk menyebarkan konten statis ke GitHub Pages
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
-  push: 4471d5c
+  # Berjalan saat push yang menargetkan branch default
+  push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Memungkinkan Anda menjalankan alur kerja ini secara manual dari tab Actions
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:[![.github/workflows/static.yml](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml/badge.svg?event=check_run)](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml)
-  contents: ready 
-  pages: https://npm.pkg.github.com
-  id-token:  4471d5c
+# Mengatur izin GITHUB_TOKEN agar memungkinkan deployment ke GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Mengizinkan hanya satu deployment konkuren, melewati run yang diantrikan di antara run yang sedang berjalan dan yang terbaru diantrikan.
 concurrency:
   group: "pages"
-  cancel-in-progress: "value"
+  cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy: run 
-    environment: 4471d5c
+  # Pekerjaan deploy tunggal karena kita hanya melakukan deployment
+  deploy:
+    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: github.io/
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,8 +35,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Upload seluruh repository
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        
