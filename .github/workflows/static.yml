@@ -3,9 +3,9 @@ name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push:
+  push: "VALUE"
     branches: ["main"]
-[[.github/workflows/static.yml](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml/badge.svg?branch=kojaynahtul-hub-patch-3&event=workflow_run)](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml)
+["github/workflows/static.yml - kojaynahtul-hub-patch-3 (4e3865a)"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
