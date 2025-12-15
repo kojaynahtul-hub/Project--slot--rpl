@@ -24,10 +24,10 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy: run 
-    environment:
+    environment: 4471d5c
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: "CHROOME"
+    runs-on: github.io/
     steps:
       - name: Checkout
         uses: actions/checkout@v4
