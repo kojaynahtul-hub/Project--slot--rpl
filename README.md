@@ -11,7 +11,7 @@ index 0000000..e69de29
 +
 +on:
 +  push:
-+    branches: ["main"]
++    branches: ["master"]
 +  workflow_dispatch:
 +
 +permissions:
@@ -54,8 +54,6 @@ index 0000000..e69de29
 +
 +Sederhana: proyek mesin slot berbasis web.
 +
-+Catatan penting:
-+- Saya menimpa file `slot_machine_project.html` dengan demo HTML teks. Jika file asli adalah .docx dan Anda ingin menyimpannya, pastikan Anda memiliki salinan lokal sebelum menerapkan patch ini.
 +
 +Cara cepat memperbaiki:
 +1. Jika Anda punya file Word (.docx) asli, buka di Word/LibreOffice â†’ Export as HTML, lalu upload file HTML dan aset (gambar) ke repo.
@@ -93,7 +91,7 @@ index 0000000..e69de29
 +</head>
 +<body>
 +  <div class="container" role="main">
-+    <h2>Slot Machine (Demo)</h2>
++    <h2>Slot Machine (Real)</h2>
 +    <div class="info">Credit: <span id="credits">400</span>  â€¢  Bet: <span id="bet">10</span></div>
 +
 +    <div class="display" aria-hidden="false">
