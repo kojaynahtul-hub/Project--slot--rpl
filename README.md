@@ -54,4 +54,5 @@ slot_machine_project.html
       </div>
     </div>
   </div>[![.github/workflows/static.yml](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml/badge.svg?event=check_run)](https://github.com/kojaynahtul-hub/Project--slot--rpl/actions/workflows/static.yml)
-  
+
+	
